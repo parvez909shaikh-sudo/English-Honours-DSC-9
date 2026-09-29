@@ -2052,11 +2052,9 @@ a {
 /* ==================================================
    MOBILE
 ================================================== */
-
 @media (max-width: 800px) {
 
   #mainContent {
-
     width:
       min(
         100% - 22px,
@@ -2064,70 +2062,49 @@ a {
       );
   }
 
-
   .top-header {
-
     padding: 0 13px;
   }
 
-
   .hero {
-
     min-height: 250px;
-
     border-radius: 19px;
   }
 
-
   .hero-content {
-
     padding: 27px;
   }
 
-
   .hero h1 {
-
     font-size: 39px;
-
     letter-spacing: -1.5px;
   }
 
-
   .feature-grid {
-
-    grid-template-columns:
-      1fr;
-  }
-
-
-  .semester-grid {
-
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
   }
 
+  .semester-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
 
   .dsc-grid {
-
     grid-template-columns:
       1fr;
   }
-
 
   .honours-dashboard {
-
     grid-template-columns:
       1fr;
   }
 
-
   .notice-title {
-
     display: none;
   }
 
 }
-
 
 @media (max-width: 500px) {
 
